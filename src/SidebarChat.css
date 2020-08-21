@@ -3,7 +3,17 @@
   padding: 20px;
   cursor: pointer;
   border-bottom: 1px solid #f6f6f6;
-}
+}    
+
+
+.sidebarChat > h2{
+    font-size: 19px;
+  } 
+
+a {
+    text-decoration: none !important;
+    color: black;
+  }
 
 .sidebarChat:hover {
   background-color: #ebebeb;
@@ -12,7 +22,11 @@
 .sidebarChat__info > h2 {
   font-size: 16px;
   margin-bottom: 8px;
-}
+}    
+
+.sidebarChat__info > p {
+    font-size: 13px;
+  } 
 
 .sidebarChat__info {
   margin-left: 15px;

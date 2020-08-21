@@ -8,7 +8,6 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  border-right: 1px solid lightgrey;
 }
 
 .sidebar__headerRight {
@@ -43,15 +42,18 @@
 .sidebar__searchContainer > .MuiSvgIcon-root {
   color: grey;
   padding: 10px;
+  margin-right: 18px;
 }
 
 .sidebar__searchContainer > input {
   border: none;
-  margin-left: 10px;
+  width: 90%;
+
 }
 
 .sidebar__chats {
   flex: 1;
   background-color: white;
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
