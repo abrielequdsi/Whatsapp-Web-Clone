@@ -48,7 +48,10 @@
 .sidebar__searchContainer > input {
   border: none;
   width: 90%;
+}
 
+.sidebar__searchContainer > input:focus {
+  outline-width: 0;
 }
 
 .sidebar__chats {

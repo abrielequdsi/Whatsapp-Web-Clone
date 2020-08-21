@@ -21,3 +21,23 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+firebase.json
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
